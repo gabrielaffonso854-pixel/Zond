@@ -75,8 +75,8 @@ export const commands = [
   new SlashCommandBuilder().setName('discordinvite').setDescription('Divulgar o convite oficial da Zonde'),
   new SlashCommandBuilder().setName('discordver').setDescription('Consultar informações do servidor Discord Developers'),
   new SlashCommandBuilder().setName('ver').setDescription('Abrir o menu de ajuda da Zonde'),
-  new SlashCommandBuilder().setName('zonde').setDescription('Informações da Zonde Lab')
-    .addSubcommand((subcommand) => subcommand.setName('info').setDescription('Conheça a Zonde Lab'))
+  new SlashCommandBuilder().setName('zonde').setDescription('Informações da RedCloud')
+    .addSubcommand((subcommand) => subcommand.setName('info').setDescription('Conheça a RedCloud'))
     .addSubcommand((subcommand) => subcommand.setName('owner').setDescription('Exibir a identificação do proprietário')),
   new SlashCommandBuilder().setName('ia').setDescription('Conversar com NVIDIA GLM-5.3 Flash')
     .addStringOption((option) => option.setName('mensagem').setDescription('O que você gostaria de saber?')

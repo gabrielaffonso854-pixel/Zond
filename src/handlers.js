@@ -135,7 +135,7 @@ const categoryContent = {
 function mainHelpEmbed() {
   return new EmbedBuilder()
     .setColor(COLOR)
-    .setTitle('Zonde Systems • Central de ajuda')
+    .setTitle('RedCloud • Central de ajuda')
     .setDescription('Selecione uma categoria para consultar os recursos disponíveis.')
     .addFields(
       { name: '🛡️ Anti', value: 'Proteção e moderação', inline: true },
@@ -163,7 +163,7 @@ function backButton() {
 
 function invitePayload() {
   return {
-    embeds: [new EmbedBuilder().setColor(COLOR).setTitle('Convite oficial da Zonde Systems')
+    embeds: [new EmbedBuilder().setColor(COLOR).setTitle('Convite oficial da RedCloud')
       .setDescription(`Acesse nosso servidor pelo convite oficial:\n${OFFICIAL.invite}`)],
     components: [new ActionRowBuilder().addComponents(
       new ButtonBuilder().setStyle(ButtonStyle.Link).setLabel('Entrar no servidor').setURL(OFFICIAL.invite),
@@ -173,7 +173,7 @@ function invitePayload() {
 
 function infoPayload() {
   return {
-    embeds: [new EmbedBuilder().setColor(COLOR).setTitle('Zonde Systems')
+    embeds: [new EmbedBuilder().setColor(COLOR).setTitle('RedCloud')
       .setDescription('Soluções digitais e tecnologia com identidade própria.')
       .addFields(
         { name: 'Site oficial', value: `[zondesystems.netlify.app](${OFFICIAL.website})` },

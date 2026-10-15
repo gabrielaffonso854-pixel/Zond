@@ -36,7 +36,7 @@ const DEFAULT_SETTINGS = {
   staffRoleIds: Object.values(TEAM_ROLES),
   maxOpenPerUser: 1,
   closeBehavior: 'archive',
-  panelTitle: 'Central de Atendimento • Zonde Lab',
+  panelTitle: 'Central de Atendimento • RedCloud',
   panelMessage: '',
   reviewChannelId: '1553754411497423011',
 };
@@ -599,7 +599,7 @@ async function makeTranscript(guild, ticket) {
   }
   messages.sort((a, b) => a.createdTimestamp - b.createdTimestamp);
   const lines = [
-    `Zonde Lab — Transcrição do ticket ${ticket.id}`,
+    `RedCloud — Transcrição do ticket ${ticket.id}`,
     `Servidor: ${guild.name} (${guild.id})`,
     `Autor: ${ticket.user_id}`,
     `Categoria: ${CATEGORIES[ticket.category]?.label || ticket.category}`,

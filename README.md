@@ -1,4 +1,4 @@
-# Zonde Systems — Bot Discord
+# RedCloud — Bot Discord
 
 Bot Discord em português brasileiro, desenvolvido com Node.js e discord.js v14. Comandos slash e o prefixo oficial `!red` encaminham para os mesmos serviços.
 
@@ -35,7 +35,7 @@ As permissões do usuário são verificadas separadamente e respeitam a hierarqu
 • `/news status` ou `!red news status` — estado do jornal.
 • `/discordver` ou `!red discordver` — consulta informações de Discord Developers na API HueHue.
 • `/ver` ou `!red ver` — menu com as quatro categorias Anti, Ticket, IA e Logs.
-• `/zonde info`, `/zonde owner`, `!red info` e `!red owner`.
+• `/redcloud info`, `/redcloud owner`, `!red info` e `!red owner`.
 • `/ia mensagem` e mensagens gerais `!red <mensagem>` — NVIDIA GLM-5.3 Flash.
 • `/iacriar` e `!red iacriar <pedido>` — cria um plano restrito, mostra a prévia e exige confirmação antes de executar.
 • `/anti` e `!red anti` — controles por módulo, estado, limites, exceções de links e registros.

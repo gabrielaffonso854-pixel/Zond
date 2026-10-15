@@ -5,7 +5,7 @@ import { recordError } from './errors.js';
 
 const CHAT_COMPLETIONS_URL = 'https://integrate.api.nvidia.com/v1/chat/completions';
 const MODEL = 'z-ai/glm-5.3-flash';
-const REQUEST_TIMEOUT_MS = 20_000;
+const REQUEST_TIMEOUT_MS = 60_000;
 const MAX_RETRIES = 2;
 const BASE_RETRY_DELAY_MS = 250;
 const MAX_RESPONSE_BYTES = 1_000_000;

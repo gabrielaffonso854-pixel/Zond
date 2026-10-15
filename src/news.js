@@ -164,7 +164,7 @@ function getArticleEmbed(article, guild) {
   const timestamp = article.publishedAt ? Math.floor(Date.parse(article.publishedAt) / 1000) : null;
   const embed = new EmbedBuilder()
     .setColor(COLOR)
-    .setTitle(`${emoji ? `${emoji} ` : ''}ZONDE NEWS`)
+    .setTitle(`${emoji ? `${emoji} ` : ''}RedCloud NEWS`)
     .setDescription(`**${article.title}**${article.summary ? `\n\n${article.summary}` : ''}`)
     .addFields(
       { name: 'Fonte', value: article.sourceName.slice(0, 256), inline: true },
@@ -188,7 +188,7 @@ function getStatusEmbed({ nextAttemptAt, result, lastArticle }) {
   }
   return new EmbedBuilder()
     .setColor(COLOR)
-    .setTitle('ZONDE NEWS')
+    .setTitle('RedCloud NEWS')
     .setDescription(`${description}\n\nPróxima consulta: <t:${timestamp}:R>.\nHorário previsto: <t:${timestamp}:F>.`)
     .setFooter({ text: 'O horário indica a próxima consulta; uma nova edição depende de notícias disponíveis.' });
 }
